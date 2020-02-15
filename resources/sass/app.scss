@@ -4,5 +4,13 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// UIkit
+@import "node_modules/uikit/src/scss/variables-theme.scss";
+@import "node_modules/uikit/src/scss/mixins-theme.scss";
+
+// Your custom mixin overwrites.
+// @mixin hook-card() { color: #000; }
+
+// Import UIkit.
+@import "node_modules/uikit/src/scss/uikit-theme.scss";
+@import "resources/sass/uikit.app-theme.scss"
